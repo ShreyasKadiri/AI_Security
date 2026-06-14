@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (downloaded at runtime — not committed)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Outputs (generated at runtime)
+outputs/reports/*
+outputs/optimized/*
+!outputs/reports/.gitkeep
+!outputs/optimized/.gitkeep
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
